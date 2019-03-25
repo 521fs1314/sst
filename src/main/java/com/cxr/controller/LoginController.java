@@ -22,7 +22,7 @@ public class LoginController {
 		return "index";
 	}
 			
-	@RequestMapping("/loginss")
+	/*@RequestMapping("/loginss")*/
 	@ResponseBody
 	public List<PbAdminLog> logins() {
 		PbAdminLog Log = new PbAdminLog();
