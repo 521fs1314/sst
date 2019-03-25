@@ -28,7 +28,7 @@ public class LoginController {
 		PbAdminLog Log = new PbAdminLog();
 		Log.setLogId(2);
 		List<PbAdminLog> list = loginService.getListLog(Log);
-		Log.setLogId(2);Log.setLogId(2);
+		
 		return list;
 	}
 	
